@@ -18,6 +18,6 @@ public abstract class Universite {
         this.universiteAdi = universiteAdi;
     }
 
-    // Üniversite bilgilerini görüntüleme abstract metodu (alt sınıflar tarafından implemente edilecek)
+    // Soyut bir metot olarak üniversite bilgilerini görüntüleme (alt sınıflar tarafından implemente edilecek)
     public abstract void bilgiGoruntule();
 }
